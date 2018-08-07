@@ -1,5 +1,9 @@
 ### mimikatz bypass Antivirus
 
+(mimikatz 2.1.1 (x64) built on Nov 12 2017 15:32:00)
+
+
+
 Powershell as Administrator
 
     Import-Module .\Invoke-Mimidogz.ps1
