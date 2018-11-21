@@ -1,6 +1,6 @@
 # Mimikatz on Powershell
 
-mimikatz 2.1.1 (x64) built on Aug  3 2018
+mimikatz 2.1.1 (x64), Nov 2018
 
 OK for Win 10 (v1803)
 
